@@ -1,0 +1,4 @@
+ext/exif/*.log
+lib/exif/exif.bundle
+tmp
+Gemfile.lock

@@ -447,6 +447,24 @@ const char *exif_entry_to_ivar(ExifEntry *ee) {
   case EXIF_TAG_GPS_DIFFERENTIAL:
     return "@gps_differential";
     break;
+  case EXIF_TAG_CAMERA_OWNER_NAME:
+    return "@camera_owner_name";
+    break;
+  case EXIF_TAG_BODY_SERIAL_NUMBER:
+    return "@body_serial_number";
+    break;
+  case EXIF_TAG_LENS_SPECIFICATION:
+    return "@lens_specification";
+    break;
+  case EXIF_TAG_LENS_MAKE:
+    return "@lens_make";
+    break;
+  case EXIF_TAG_LENS_MODEL:
+    return "@lens_model";
+    break;
+  case EXIF_TAG_LENS_SERIAL_NUMBER:
+    return "@lens_serial_number";
+    break;
   }
   return 0;
 }

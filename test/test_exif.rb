@@ -80,6 +80,9 @@ class TestExif < Minitest::Test
         saturation: 0,
         sharpness: 0,
         subject_distance_range: 0,
+        :body_serial_number=>"8011371",
+        :lens_specification=>[Rational(24, 1), Rational(70, 1), Rational(14, 5), Rational(14, 5)],
+        :lens_model=>"24.0-70.0 mm f/2.8",
         flash_pix_version: '0100'
       }, data.ifds[:exif])
 

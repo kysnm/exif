@@ -110,7 +110,9 @@ exif (49b6835)          0.010000   0.000000   0.010000 (  0.006925)
 - artist
 - battery_level
 - bits_per_sample
+- body_serial_number
 - brightness_value
+- camera_owner_name
 - cfa_pattern
 - cfa_repeat_pattern_dim
 - color_space
@@ -192,6 +194,10 @@ exif (49b6835)          0.010000   0.000000   0.010000 (  0.006925)
 - jpeg_interchange_format
 - jpeg_interchange_format_length
 - jpeg_proc
+- lens_make
+- lens_model
+- lens_serial_number
+- lens_specification
 - light_source
 - make
 - maker_note
